@@ -135,6 +135,12 @@ export default function Home() {
           <button className="w-full mt-6 bg-gradient-to-r from-purple-600 to-purple-800 text-white py-3 rounded-xl font-medium hover:opacity-90 transition">
             Sign up
           </button>
+          <p className="text-sm text-center text-gray-500 mt-4">
+            Already have an account?{" "}
+            <span className="text-purple-700 font-medium cursor-pointer hover:underline">
+              Log in
+            </span>
+          </p>
 
         </div>
 
